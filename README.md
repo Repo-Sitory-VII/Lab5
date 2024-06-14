@@ -275,7 +275,6 @@ HTML — это язык разметки гипертекстовых доку�
 <body>
     <p id="output"></p>
     <script>
-        var str = "hdfgv";
         document.getElementById("output").innerHTML = 1.15 + 2.30;
     </script>
 </body>
