@@ -474,11 +474,11 @@ HTML — это язык разметки гипертекстовых доку�
 <h1 align = "center">Codewars</h1>
 
 <h2 align = "center">Determine offspring sex based on genes XX and XY chromosomes</h2>
-~~~js
+```js
 function chromosomeCheck(sperm) {
   return "Congratulations! You\'re going to have a " + (sperm == "XY" ? "son." : "daughter.");
 }
-~~~
+```
 
 <h2 align = "center">Simple multiplication</h2>
 ~~~js
@@ -505,6 +505,13 @@ function countSquares(cuts){
 ~~~js
 function periodIsLate(last, today, cycleLength) {
   return (today-last)/86400000 > cycleLength;
+}
+~~~
+
+<h2 align = "center">Remove String Spaces</h2>
+~~~js
+function noSpace(x){
+  return x.replaceAll(" ","");
 }
 ~~~
 
