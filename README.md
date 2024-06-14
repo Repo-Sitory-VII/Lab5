@@ -453,7 +453,7 @@ HTML — это язык разметки гипертекстовых доку�
 ~~~
 <h2 align = "center">Файл 5.23.html</h2>
 
-```html
+~~~html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -469,11 +469,12 @@ HTML — это язык разметки гипертекстовых доку�
     </script>
 </body>
 </html>
-```
+~~~
 
 <h1 align = "center">Codewars</h1>
 
 <h2 align = "center">Determine offspring sex based on genes XX and XY chromosomes</h2>
+
 ~~~javascript
 function chromosomeCheck(sperm) {
   return "Congratulations! You\'re going to have a " + (sperm == "XY" ? "son." : "daughter.");
@@ -481,35 +482,40 @@ function chromosomeCheck(sperm) {
 ~~~
 
 <h2 align = "center">Simple multiplication</h2>
-~~~js
+
+~~~javascript
 function simpleMultiplication(number) {
     return number * (number % 2 == 1 ? 9 : 8)
 }
 ~~~
 
 <h2 align = "center">Find Nearest square number</h2>
-~~~js
+
+~~~javascript
 function nearestSq(n){
   return Math.pow(Math.round(Math.sqrt(n)), 2);
 }
 ~~~
 
 <h2 align = "center">Count the number of cubes with paint on</h2>
-~~~js
+
+~~~javascript
 function countSquares(cuts){
   return cuts == 0 ? 1 : (cuts+1)**3 - (cuts-1)**3
 }
 ~~~
 
 <h2 align = "center">Is your period late?</h2>
-~~~js
+
+~~~javascript
 function periodIsLate(last, today, cycleLength) {
   return (today-last)/86400000 > cycleLength;
 }
 ~~~
 
 <h2 align = "center">Remove String Spaces</h2>
-~~~js
+
+~~~javascript
 function noSpace(x){
   return x.replaceAll(" ","");
 }
