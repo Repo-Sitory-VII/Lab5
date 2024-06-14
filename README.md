@@ -471,36 +471,38 @@ HTML — это язык разметки гипертекстовых доку�
 </html>
 ~~~
 
+<h1 align = "center">Codewars</h1>
+
 <h2 align = "center">Determine offspring sex based on genes XX and XY chromosomes</h2>
-~~~javascript
+~~~js
 function chromosomeCheck(sperm) {
   return "Congratulations! You\'re going to have a " + (sperm == "XY" ? "son." : "daughter.");
 }
 ~~~
 
 <h2 align = "center">Simple multiplication</h2>
-~~~javascript
+~~~js
 function simpleMultiplication(number) {
     return number * (number % 2 == 1 ? 9 : 8)
 }
 ~~~
 
 <h2 align = "center">Find Nearest square number</h2>
-~~~javascript
+~~~js
 function nearestSq(n){
   return Math.pow(Math.round(Math.sqrt(n)), 2);
 }
 ~~~
 
 <h2 align = "center">Count the number of cubes with paint on</h2>
-~~~javascript
+~~~js
 function countSquares(cuts){
   return cuts == 0 ? 1 : (cuts+1)**3 - (cuts-1)**3
 }
 ~~~
 
 <h2 align = "center">Is your period late?</h2>
-~~~javascript
+~~~js
 function periodIsLate(last, today, cycleLength) {
   return (today-last)/86400000 > cycleLength;
 }
