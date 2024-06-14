@@ -453,7 +453,7 @@ HTML — это язык разметки гипертекстовых доку�
 ~~~
 <h2 align = "center">Файл 5.23.html</h2>
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -469,12 +469,12 @@ HTML — это язык разметки гипертекстовых доку�
     </script>
 </body>
 </html>
-~~~
+```
 
 <h1 align = "center">Codewars</h1>
 
 <h2 align = "center">Determine offspring sex based on genes XX and XY chromosomes</h2>
-~~~html
+~~~javascript
 function chromosomeCheck(sperm) {
   return "Congratulations! You\'re going to have a " + (sperm == "XY" ? "son." : "daughter.");
 }
